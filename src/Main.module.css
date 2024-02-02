@@ -1,0 +1,44 @@
+@import '~antd/dist/antd.css';
+
+p{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.nav{
+    width:258px;
+    flex-shrink:0;
+}
+.container_main{
+    display:flex;
+    min-height:100vh;
+}
+.container_navbar{
+    width:258px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    top:64px;
+    bottom:0;
+    position:absolute;
+}
+.content_container{
+    flex:1 1 0%;
+    display:flex;
+    flex-direction:column;
+    max-width:100%;
+}
+.content{
+    overflow-y:auto;
+    overflow-x: hidden;
+    padding:48px
+}
+.pages_container{
+    flex:1 1 0%;
+}
+.footer{
+    border-top:thin solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    flex:1 1 0%;
+    height:60px;
+    align-items: center;
+    justify-content: center;
+}
+

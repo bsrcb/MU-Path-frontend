@@ -1,0 +1,33 @@
+.container_paper{
+    height: 70vh;
+    /* margin: 24px; */
+    overflow-y: auto;
+    overflow-x: auto;
+    /* overflow: hidden; */
+    border-radius: 6px;
+    box-shadow: rgb(50 50 93 / 2%) 0px 2px 5px -1px, rgb(0 0 0 / 5%) 0px 1px 3px -1px;
+    background-image: none;
+    padding:15px;
+}
+.container_detail{
+    height: 30vh;
+    /* margin: 24px; */
+    overflow-y: auto;
+    overflow-x: auto;
+    /* overflow: hidden; */
+    border-radius: 6px;
+    box-shadow: rgb(50 50 93 / 2%) 0px 2px 5px -1px, rgb(0 0 0 / 5%) 0px 1px 3px -1px;
+    background-image: none;
+    padding:15px;
+}
+.container_figure{
+    position: relative;
+    height: 75vh;
+    /* margin: 24px; */
+    /* overflow-y: auto;
+    overflow-x: auto; */
+    /* overflow: hidden; */
+    border-radius: 6px;
+    box-shadow: rgb(50 50 93 / 2%) 0px 2px 5px -1px, rgb(0 0 0 / 5%) 0px 1px 3px -1px;
+    padding:-16px;
+}

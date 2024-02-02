@@ -1,0 +1,23 @@
+.logo_container{
+    height:64px;
+    text-align:center;
+    color:white !important;
+}
+.logo_title{
+    font-size:1.0625rem;
+    line-height:64px;
+    display: inline;
+    color:'white' !important;
+    font-weight: 500;
+}
+.logo_version{
+    position:absolute;
+    background-color: rgb(56 142 59);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    height: 16px;
+    margin-left: 6px;
+    top:15px;
+    padding: 2px;
+}

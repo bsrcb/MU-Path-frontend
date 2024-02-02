@@ -1,0 +1,41 @@
+.header_container{
+    height:64px;
+    color:white !important;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.icon_theme{
+    font-size: 29px !important;
+    margin-right: 3%;
+}
+.icon_theme:hover{
+    
+    color:rgba(255, 255, 255, 0.7);
+}
+.icon_github{
+    font-size: 29px !important;
+    margin-right: 20px;
+}
+.icon_github:hover{
+    
+    color:rgba(255, 255, 255, 0.7);
+}
+.icon_user{
+    font-size: 32px !important;
+    margin-right: 20px;
+}
+.icon_user:hover{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.icon_mini_menu{
+    color:white !important;
+    position: absolute !important;
+    font-size: 32px !important;
+    left: 20px !important;
+}
+.icon_mini_menu:hover{
+    color:rgba(255, 255, 255, 0.7) !important;
+}
